@@ -1,0 +1,39 @@
+#image {
+  margin: 0;
+  padding: 0;
+}
+#image img {
+  height: min-content;
+  max-height: 760px;
+}
+/* ========================================================= */
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.innerContainer {
+  /* padding: 100px; */
+}
+#form form {
+  width: 100%;
+}
+#form form div label {
+  float: left;
+}
+
+#form form button {
+  margin: 15px 0 0;
+  width: 100%;
+}
+
+#form form div small {
+  float: left;
+  margin-bottom: 20px;
+}
+#Signup {
+  width: 100%;
+  margin: 20px 0 20px;
+}
